@@ -26,10 +26,11 @@ class CreateUsersTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('email')->unique();
+            $table->string('username',6)->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
-            $table->unsignedInteger('role_id')->default(\App\Role::EMPLOYEE);
-            $table->foreign('role_id')->references('id')->on('roles');
+            $table->unsignedInteger('role_id')->default(1);
+            //$table->foreign('role_id')->references('id')->on('roles');
             $table->rememberToken();
             $table->boolean('status')->default(true);
             $table->timestamps();
