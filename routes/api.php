@@ -19,17 +19,7 @@ Route::post('register', 'UserController@register');
 
 
 
-Route::get('user/{id}', 'UserController@user');
-Route::get('user/delete/{id}', 'UserController@userDelete');
-Route::post('user/update', 'UserController@userUpdate');
-Route::get('user/doc/{id}', 'UserController@userDoc');
 
-
-Route::get('documents', 'DocumentsController@documents');
-Route::get('document/{id}', 'DocumentsController@document');
-Route::get('document/delete/{id}', 'DocumentsController@documentDelete');
-Route::post('document/', 'DocumentsController@createDocument');
-Route::post('document/update', 'DocumentsController@updateDocument');
 
 
 
@@ -44,4 +34,15 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::group(['middleware'=>'auth:api'], function(){
     Route::get('users', 'UserController@users');
+    Route::get('user/{id}', 'UserController@user');
+    Route::get('user/delete/{id}', 'UserController@userDelete');
+    Route::post('user/update', 'UserController@userUpdate');
+    Route::get('user/doc/{id}', 'UserController@userDoc');
+
+
+    Route::get('documents', 'DocumentsController@documents');
+    Route::get('document/{id}', 'DocumentsController@document');
+    Route::get('document/delete/{id}', 'DocumentsController@documentDelete');
+    Route::post('document/', 'DocumentsController@createDocument');
+    Route::post('document/update', 'DocumentsController@updateDocument');
 });
