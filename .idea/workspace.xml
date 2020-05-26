@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UserController.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="UserController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="74" selection-start="2187" selection-end="2187" vertical-scroll-proportion="-10.076923" vertical-offset="860" max-vertical-offset="2261">
+            <state line="37" column="50" selection-start="1097" selection-end="1106" vertical-scroll-proportion="0.572695" vertical-offset="306" max-vertical-offset="2261">
               <folding>
                 <element signature="e#6#90#0" expanded="true" />
                 <element signature="e#125#138#0" expanded="true" />
@@ -47,7 +47,7 @@
       <file leaf-file-name="Documents.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Documents.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="6" selection-start="308" selection-end="308" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="459">
+            <state line="10" column="8" selection-start="168" selection-end="224" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="459">
               <folding />
             </state>
           </provider>
@@ -56,9 +56,20 @@
       <file leaf-file-name="DocumentsController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DocumentsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="68" selection-start="621" selection-end="621" vertical-scroll-proportion="-15.961538" vertical-offset="10" max-vertical-offset="612">
+            <state line="71" column="9" selection-start="1998" selection-end="1998" vertical-scroll-proportion="-29.192308" vertical-offset="448" max-vertical-offset="1394">
               <folding>
                 <element signature="e#40#68#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2014_10_12_000000_create_users_table.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="50" selection-start="1166" selection-end="1166" vertical-scroll-proportion="-9.153846" vertical-offset="357" max-vertical-offset="1037">
+              <folding>
+                <element signature="e#7#52#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,10 +95,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="api.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="559" selection-end="1087" vertical-scroll-proportion="0.21538462" vertical-offset="214" max-vertical-offset="867">
+            <state line="16" column="42" selection-start="496" selection-end="501" vertical-scroll-proportion="-7.9615383" vertical-offset="65" max-vertical-offset="884">
               <folding>
                 <element signature="e#7#35#0" expanded="true" />
               </folding>
@@ -121,7 +132,6 @@
         <option value="$PROJECT_DIR$/app/Role.php" />
         <option value="$PROJECT_DIR$/database/seeds/RoleSeeder.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
         <option value="$PROJECT_DIR$/database/seeds/UserSeeder.php" />
@@ -130,8 +140,9 @@
         <option value="$PROJECT_DIR$/database/seeds/DocumentSeeder.php" />
         <option value="$PROJECT_DIR$/app/Documents.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/DocumentsController.php" />
         <option value="$PROJECT_DIR$/app/Exceptions/Handler.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/DocumentsController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
         <option value="$PROJECT_DIR$/routes/api.php" />
       </list>
     </option>
@@ -184,6 +195,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="aut" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aut" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aut" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aut" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aut" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -476,15 +519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="32" selection-start="756" selection-end="756" vertical-scroll-proportion="-4.576923" vertical-offset="357" max-vertical-offset="1020">
-          <folding>
-            <element signature="e#7#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/Request.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="6" selection-start="538" selection-end="609" vertical-scroll-proportion="-0.5862069" vertical-offset="510" max-vertical-offset="11900">
@@ -495,13 +529,6 @@
     <entry file="file://$PROJECT_DIR$/app/Role.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="4" selection-start="141" selection-end="241" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="391">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_05_25_234011_create_documents_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="32" selection-start="648" selection-end="664" vertical-scroll-proportion="-8.615385" vertical-offset="116" max-vertical-offset="731">
           <folding />
         </state>
       </provider>
@@ -536,32 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Documents.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="6" selection-start="308" selection-end="308" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="459">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="74" selection-start="2187" selection-end="2187" vertical-scroll-proportion="-10.076923" vertical-offset="860" max-vertical-offset="2261">
-          <folding>
-            <element signature="e#6#90#0" expanded="true" />
-            <element signature="e#125#138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DocumentsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="68" selection-start="621" selection-end="621" vertical-scroll-proportion="-15.961538" vertical-offset="10" max-vertical-offset="612">
-          <folding>
-            <element signature="e#40#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Exceptions/Handler.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="75" selection-start="1482" selection-end="1482" vertical-scroll-proportion="-15.038462" vertical-offset="612" max-vertical-offset="1241">
@@ -571,11 +572,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Documents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="8" selection-start="168" selection-end="224" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_05_25_234011_create_documents_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="41" selection-start="650" selection-end="657" vertical-scroll-proportion="0.39716312" vertical-offset="116" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DocumentsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="9" selection-start="1998" selection-end="1998" vertical-scroll-proportion="-29.192308" vertical-offset="448" max-vertical-offset="1394">
+          <folding>
+            <element signature="e#40#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="50" selection-start="1166" selection-end="1166" vertical-scroll-proportion="-9.153846" vertical-offset="357" max-vertical-offset="1037">
+          <folding>
+            <element signature="e#7#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="6" selection-start="3064" selection-end="3064" vertical-scroll-proportion="0.49183303" vertical-offset="426" max-vertical-offset="1003">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="559" selection-end="1087" vertical-scroll-proportion="0.21538462" vertical-offset="214" max-vertical-offset="867">
+        <state line="16" column="42" selection-start="496" selection-end="501" vertical-scroll-proportion="-7.9615383" vertical-offset="65" max-vertical-offset="884">
           <folding>
             <element signature="e#7#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="50" selection-start="1097" selection-end="1106" vertical-scroll-proportion="0.572695" vertical-offset="306" max-vertical-offset="2261">
+          <folding>
+            <element signature="e#6#90#0" expanded="true" />
+            <element signature="e#125#138#0" expanded="true" />
           </folding>
         </state>
       </provider>

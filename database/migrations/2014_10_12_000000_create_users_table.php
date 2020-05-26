@@ -33,6 +33,7 @@ class CreateUsersTable extends Migration
             $table->foreign('role_id')->references('id')->on('roles');
             $table->rememberToken();
             $table->boolean('status')->default(true);
+            $table->string('api_token')->nullable();
             $table->timestamps();
             $table->softDeletes();
         });
