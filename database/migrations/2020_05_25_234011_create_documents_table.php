@@ -20,7 +20,7 @@ class CreateDocumentsTable extends Migration
             $table->foreign('user_id')->references('id')->on('users');
             $table->string('name');
             $table->string('ext');
-            $table->enum('status',['PICTURE','CV'])->nullable();
+            $table->enum('type',['PICTURE','CV'])->nullable();
             $table->timestamps();
         });
     }

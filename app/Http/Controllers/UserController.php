@@ -52,7 +52,6 @@ class UserController {
             'name' => 'required',
             'email' => 'required|email|unique:users',
             'password' => 'required',
-            //'user' => 'required|min:6|max:6'
             'user' => 'required|valid_username|min:6|max:6|unique:users,user',
         ]);
 
@@ -66,6 +65,56 @@ class UserController {
         $user = User::create($input);
         return response()->json(['res' => true, 'message' => "Exito"]);
     }
+
+    public function users(Request $request) {
+        $users = User::all();
+        return response()->json(['res' => true, 'users' => $users]);
+    }
+
+    public function user($id){
+        $user = User::find($id);
+        return response()->json(['res' => true, 'user' => $user]);
+    }
+
+    public function userDelete($id){
+        $user = User::find($id);
+        $user->delete();
+        return response()->json(['res' => true, 'user' => $user]);
+    }
+
+    public function userUpdate(Request $request){
+        Validator::extend('valid_username', function($attr, $value){
+
+            return preg_match('/^\S*$/u', $value);
+
+        });
+
+
+        $user = User::find($request->id);
+
+        if($request->name){
+            $user->name= $request->name;
+        }
+
+        if($request->email){
+            $user->email= $request->email;
+        }
+
+        if($request->user){
+            $user->user= $request->user;
+        }
+
+        if($request->password){
+            $user->password= bcrypt($request->password);
+        }
+
+
+        $user->save();
+
+        return response()->json(['res' => true, 'user' => $user]);
+    }
+
+
 
 
 
