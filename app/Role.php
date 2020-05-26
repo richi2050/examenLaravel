@@ -8,4 +8,10 @@ class Role extends Model
 {
     const ADMIN = 1;
     const EMPLOYEE = 2;
+
+    protected $table = 'roles';
+    protected $fillable = [
+        'name',
+        'description'
+    ];
 }
