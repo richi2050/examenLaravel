@@ -26,7 +26,7 @@ class CreateUsersTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('email')->unique();
-            $table->string('username',6)->unique();
+            $table->string('user',6)->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->unsignedInteger('role_id')->default(\App\Role::EMPLOYEE);
