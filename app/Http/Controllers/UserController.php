@@ -19,10 +19,19 @@ class UserController {
     {
         if($request->email){
             $user = User::whereEmail($request->email)->first();
+
+            if(!$user = User::whereEmail($request->email)->whereRoleId(1)->first()){
+                return response()->json(['res' => false, 'message' => "Upsss algo salio mal, lo sentimos no eres administrador"]);
+            }
         }
         else{
             $user = User::whereUser($request->username)->first();
+            if(!$user = User::whereUser($request->username)->whereRoleId(1)->first()){
+                return response()->json(['res' => false, 'message' => "Upsss algo salio mal, lo sentimos no eres administrador"]);
+            }
         }
+
+
 
         if (!is_null($user) && Hash::check($request->password, $user->password)) {
             $token = $user->createToken('Contactos')->accessToken;
