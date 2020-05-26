@@ -32,11 +32,19 @@ class UserController {
     }
 
     public function register(Request $request) {
+
+        Validator::extend('valid_username', function($attr, $value){
+
+            return preg_match('/^\S*$/u', $value);
+
+        });
+
         $validator = Validator::make($request->all(), [
             'name' => 'required',
             'email' => 'required|email|unique:users',
             'password' => 'required',
-            'user' => 'required|min:6|max:6'
+            //'user' => 'required|min:6|max:6'
+            'user' => 'required|valid_username|min:6|max:6|unique:users,user',
         ]);
 
         if ($validator->fails()) {
