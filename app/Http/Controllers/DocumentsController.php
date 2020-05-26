@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Documents;
 use Validator;
+use Illuminate\Validation\Rule;
+
 class DocumentsController extends Controller
 {
 
@@ -35,14 +37,16 @@ class DocumentsController extends Controller
 
     public function createDocument(Request $request){
 
-        /*
+
         $validator = Validator::make($request->all(), [
-            'file' => 'required|image|mimes:jpg'
+            'user_id' => 'required',
+            'file' => 'mimes:jpeg,pdf',
+            'type' => Rule::in(['PICTURE', 'CV']),
         ]);
 
         if ($validator->fails()) {
             return response()->json(['error'=>$validator->errors()], 401);
-        }*/
+        }
 
 
 
