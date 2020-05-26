@@ -9,6 +9,7 @@
 namespace App\Http\Controllers;
 
 use App\User;
+use App\Documents;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Validator;
@@ -63,23 +64,23 @@ class UserController {
         $input = $request->all();
         $input['password'] = bcrypt($input['password']);
         $user = User::create($input);
-        return response()->json(['res' => true, 'message' => "Exito"]);
+        return response()->json(['res' => true, 'message' => "Exito"], 200);
     }
 
     public function users(Request $request) {
         $users = User::all();
-        return response()->json(['res' => true, 'users' => $users]);
+        return response()->json(['res' => true, 'users' => $users], 200);
     }
 
     public function user($id){
         $user = User::find($id);
-        return response()->json(['res' => true, 'user' => $user]);
+        return response()->json(['res' => true, 'user' => $user], 200);
     }
 
     public function userDelete($id){
         $user = User::find($id);
         $user->delete();
-        return response()->json(['res' => true, 'user' => $user]);
+        return response()->json(['res' => true, 'user' => $user], 200);
     }
 
     public function userUpdate(Request $request){
@@ -111,7 +112,13 @@ class UserController {
 
         $user->save();
 
-        return response()->json(['res' => true, 'user' => $user]);
+        return response()->json(['res' => true, 'user' => $user], 200);
+    }
+
+    public function userDoc($id){
+        $doc = Documents::whereUserId($id)->get();
+
+        return response()->json(['res' => true, 'doc' => $doc], 200);
     }
 
 

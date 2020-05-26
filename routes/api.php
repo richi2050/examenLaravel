@@ -16,11 +16,19 @@ use Illuminate\Support\Facades\Route;
 
 Route::post('login', 'UserController@login');
 Route::post('register', 'UserController@register');
+
+
 Route::get('users', 'UserController@users');
 Route::get('user/{id}', 'UserController@user');
 Route::get('user/delete/{id}', 'UserController@userDelete');
 Route::post('user/update', 'UserController@userUpdate');
+Route::get('user/doc/{id}', 'UserController@userDoc');
 
+
+Route::get('documents', 'DocumentsController@documents');
+Route::get('document/{id}', 'DocumentsController@document');
+Route::get('document/delete/{id}', 'DocumentsController@documentDelete');
+//Route::post('document/update', 'UserController@documentUpdate');
 
 
 
@@ -29,4 +37,10 @@ Route::post('user/update', 'UserController@userUpdate');
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 
+});
+
+
+Route::group(['middleware'=>'auth:api'], function(){
+    Route::ApiResource('directorios', 'DirectorioController');
+    Route::post('logout', 'UserController@logout');
 });

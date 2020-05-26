@@ -13,4 +13,9 @@ class Documents extends Model
         'ext',
         'type'
     ];
+
+    protected $hidden = [
+        'created_at',
+        'updated_at'
+    ];
 }
