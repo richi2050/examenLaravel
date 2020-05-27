@@ -46,23 +46,34 @@ Para poblar la tabla corremos el siguiente comando
 ```sh
 $ php artisan db:seed
 ```
-
+[1]: <http://127.0.0.1:8000/api/document>
+[2]: <http://127.0.0.1:8000/api/document/delete/{id}>
+[3]: <http://127.0.0.1:8000/api/document/update>
+[4]: <http://127.0.0.1:8000/api/document/{id}>
+[5]: <http://127.0.0.1:8000/api/documents>
+[6]: <http://127.0.0.1:8000/api/login>
+[7]: <http://127.0.0.1:8000/api/register>
+[8]: <http://127.0.0.1:8000/api/user/delete/{id}>
+[9]: <http://127.0.0.1:8000/api/user/doc/{id}>
+[10]: <http://127.0.0.1:8000/api/user/update/{id}>
+[11]: <http://127.0.0.1:8000/api/user/{id}>
+[12]: <http://127.0.0.1:8000/api/users>
 ### Rutas
 Estas son la siguientes rutas de la api
 | descripcion | Ruta |
 | ------ | ------ |
-| Crear documento | [api/document][PlDb] |
-| Borrar documento | [api/document/delete/{id}][PlDb] |
-| Update documento | [api/document/update][PlDb] |
-| Select documento | [api/document/{id}][PlDb] |
-| Select documentos | [api/documents][PlDb] |
-| autenticacion usuario | [api/login][PlDb] |
-| registro usuario | [api/register][PlDb] |
-| Borrar usuario | [api/user/delete/{id}][PlDb] |
-| Usuarios documentos | [api/user/doc/{id}][PlDb] |
-| Update usuario | [api/user/update/{id}][PlDb] |
-| Select usuario | [api/user/{id}][PlDb] |
-| Select usuarios | [api/users][PlDb] |
+| Crear documento | [api/document][1] |
+| Borrar documento | [api/document/delete/{id}][2] |
+| Update documento | [api/document/update][3] |
+| Select documento | [api/document/{id}][4] |
+| Select documentos | [api/documents][5] |
+| autenticacion usuario | [api/login][6] |
+| registro usuario | [api/register][7] |
+| Borrar usuario | [api/user/delete/{id}][8] |
+| Usuarios documentos | [api/user/doc/{id}][9] |
+| Update usuario | [api/user/update/{id}][10] |
+| Select usuario | [api/user/{id}][11] |
+| Select usuarios | [api/users][12] |
 
 Para facilidad te adjunto archivos de postman realizar los request necesarios
 con el nombre `examenLaravel.postman_collection.json` 
