@@ -49,8 +49,6 @@ $ php artisan db:seed
 
 ### Rutas
 Estas son la siguientes rutas de la api
-
-
 | descripcion | Ruta |
 | ------ | ------ |
 | Crear documento | [api/document][PlDb] |
@@ -69,4 +67,38 @@ Estas son la siguientes rutas de la api
 Para facilidad te adjunto archivos de postman realizar los request necesarios
 con el nombre `examenLaravel.postman_collection.json` 
 
-**Developer Ricardo Lugo 🤓🤓 , Hey Difruta!**
+### Cron
+
+```sh
+ user
+  user:all             Lista los usuarios existentes en consola
+```
+para correr el cron
+```sh
+  php artisan user:all
+admin@gmail.com
+fake0@gmail.com
+fake1@gmail.com
+fake3@gmail.com
+fake4@gmail.com
+fake5@gmail.com
+fake6@gmail.com
+fake7@gmail.com
+fake8@gmail.com
+fake9@gmail.com
+fake10@gmail.com
+Finalizo el listado de usuarios user:all
+```
+
+# Nota
+todos los usuarios tienes la contraseña `12345678`
+
+### Correr Servidor
+```sh 
+$ php artisan serve
+Laravel development server started: http://127.0.0.1:8000
+[Tue May 26 23:49:07 2020] PHP 7.4.6 Development Server (http://127.0.0.1:8000) started
+```
+
+
+**Developer Ricardo Lugo 🤓🤓 , Hey Disfruta!**

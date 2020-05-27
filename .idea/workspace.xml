@@ -23,17 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DocumentsController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DocumentsController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="31" selection-start="134" selection-end="134" vertical-scroll-proportion="-2.6153846" vertical-offset="51" max-vertical-offset="1462">
-              <folding>
-                <element signature="e#40#68#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UserController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -102,7 +91,16 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="714" selection-end="714" vertical-scroll-proportion="-0.3542373" vertical-offset="719" max-vertical-offset="1309">
+            <state line="103" column="47" selection-start="2623" selection-end="2623" vertical-scroll-proportion="0.94237286" vertical-offset="1195" max-vertical-offset="1853">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserSeeder.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/seeds/UserSeeder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="42" selection-start="364" selection-end="372" vertical-scroll-proportion="-10.461538" vertical-offset="34" max-vertical-offset="663">
               <folding />
             </state>
           </provider>
@@ -586,11 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/UserSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="663" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/DocumentSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="32" selection-start="288" selection-end="288" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="646" />
@@ -694,9 +687,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/UserSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="42" selection-start="364" selection-end="372" vertical-scroll-proportion="-10.461538" vertical-offset="34" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="714" selection-end="714" vertical-scroll-proportion="-0.3542373" vertical-offset="719" max-vertical-offset="1309">
+        <state line="103" column="47" selection-start="2623" selection-end="2623" vertical-scroll-proportion="0.94237286" vertical-offset="1195" max-vertical-offset="1853">
           <folding />
         </state>
       </provider>
